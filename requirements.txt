@@ -2,3 +2,4 @@ streamlit
 phi-agent
 groq
 python-dotenv
+git+https://github.com/yourusername/phi-agent.git
