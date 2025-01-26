@@ -1,0 +1,5 @@
+streamlit
+phi-agent
+groq
+python-dotenv
+git+https://github.com/Soyam0304/phi-agent.git
