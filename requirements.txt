@@ -1,0 +1,4 @@
+streamlit>=1.33.0
+phi[groq]>=2.3.53
+python-dotenv>=1.0.0
+groq>=0.5.0
