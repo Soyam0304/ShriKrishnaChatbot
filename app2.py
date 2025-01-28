@@ -1,3 +1,6 @@
+import inspect
+if not hasattr(inspect, 'getargspec'):
+    inspect.getargspec = inspect.getfullargspec
 import streamlit as st
 from phi.agent import Agent
 from phi.model.groq import Groq
@@ -49,7 +52,8 @@ st.markdown("""
             font-family: 'Helvetica Neue', sans-serif;
         }
     </style>
-""", unsafe_allow_html=True)
+""", unsafe_allow_html=True) 
+
 
 # Define Shri Krishna Chatbot Agent
 krishna_agent = Agent(
