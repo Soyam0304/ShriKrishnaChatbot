@@ -1,0 +1,5 @@
+streamlit>=1.33.0
+phi[groq]>=0.6.7  # Correct version (2.x doesn't exist)
+python-dotenv>=1.0.0
+groq>=0.5.0
+protobuf<4.0.0  # Add this to avoid compatibility issues
